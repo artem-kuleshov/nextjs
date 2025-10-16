@@ -1,4 +1,4 @@
-import { MyProfile } from "@/components/MyProfile"
+import { MyProfile } from "@/app/(public)/my-profile/MyProfile"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
