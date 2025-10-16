@@ -1,6 +1,7 @@
 import { TWEETS } from "@/shared/data/tweets.data";
 import { Tweet } from "./Tweet";
 import type { Metadata } from "next";
+import { TweetForm } from "./TweetForm";
 
 export const metadata: Metadata = {
   title: 'Tweets'
@@ -8,8 +9,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold mb-6">Home</h1>
+    <div>      
+      <TweetForm/>
       <div className="space-y-6">
         {TWEETS.map(tweet => 
           <Tweet 
