@@ -8,6 +8,7 @@ export function Header() {
         <MenuItem href={PAGES.HOME} label="Home" />
         <MenuItem href={PAGES.EXPLORE} label="Explore" />
         <MenuItem href={PAGES.MY_PROFILE} label="My profile" />
+        <MenuItem href={PAGES.SHOP} label="Shop" />
       </nav>
     </header>
   )
